@@ -1,0 +1,15 @@
+{% load static %}
+
+{% for project in projects %}
+    <div class="col-md-6 col-lg-4 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="card">
+          <div class="img-place" style="border-radius: 50%">
+            <img src="{{ project.image.url }}" alt="">
+          </div>
+          <div class="caption">
+            <a href="{{ project.link }}" class="post-category">{{ project.title }}</a>
+            <a href="{{ project.link }}" class="post-title"> {{ project.info }}</a>
+          </div>
+        </div>
+      </div>
+{% endfor %}

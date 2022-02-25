@@ -1,0 +1,69 @@
+{% load static %}
+
+<div class="vg-footer" id="footer">
+          <h1 class="text-center">{{ owner.name }}</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 py-3">
+                <div class="float-lg-right">
+                  <p>Links</p>
+                  <hr class="divider" />
+                  <ul class="list-unstyled">
+                      {% for link in links %}
+
+                        <li>
+                            {% if link.type == "PH" %}
+                              <a href="tel:{{ link.info }}"
+                                target="_blank"
+                                >{{ link.title  }}</a>
+                            {% elif link.type == "LI" %}
+                              <a href="{{ link.info }}"
+                                target="_blank"
+                                >{{ link.title  }}</a>
+                            {% elif link.type == "EM" %}
+                              <a href="mailto: {{ link.info }}"
+                                target="_blank"
+                                >{{ link.title  }}</a>
+                            {% elif link.type == "TE" %}
+                                <p style="margin-bottom:0;">
+                                {{ link.info }} </p>
+                            {% endif %}
+                            </li>
+
+                      {% endfor %}
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 py-3">
+                <div class="float-lg-right">
+                  <p>Contact me</p>
+                  <hr class="divider" />
+                  <ul class="list-unstyled">
+                    {% for con in contacts %}
+                        <li>
+                            {% if link.type == "PH" %}
+                              <a href="tel:{{ con.info }}"
+                                target="_blank"
+                                >{{ con.title  }}</a>
+                            {% elif con.type == "LI" %}
+                              <a href="{{ con.info }}"
+                                target="_blank"
+                                >{{ con.title  }}</a>
+                            {% elif con.type == "EM" %}
+                              <a href="mailto: {{ con.info }}"
+                                target="_blank"
+                                >{{ con.title  }}</a>
+                            {% elif con.type == "TE" %}
+                              <a
+                                >{{ con.title  }}</a>
+
+                            {% endif %}
+                            </li>
+
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

@@ -1,0 +1,28 @@
+{% load static %}
+<!-- Page About -->
+      <div class="vg-page page-about" id="about">
+        <!-- Profile -->
+        <div class="container py-3">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="img-place wow zoomIn">
+                <img src="{{ owner.photo.url }}" alt="Photo Profile" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="caption wow fadeInRight">
+                <h2 class="fg-dark">{{  owner.name }}</h2>
+                <p class="fg-theme fw-medium">{{ owner.title }}</p>
+                <p>
+                  {{ owner.about_info }}
+                </p>
+                <ul class="theme-list">
+                  <li class="fg-dark"><b>From:</b> {{ owner.home_info}}</li>
+                  <li class="fg-dark"><b>Age:</b> {{ owner.age }}</li>
+                  <li class="fg-dark"><b>Gender:</b> {{ owner.gender }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>

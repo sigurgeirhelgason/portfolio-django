@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3464c075-f3e0-440c-aa8f-130de5e796d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/portf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/maicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/minibar.virtual.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/topbar.virtual.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/virtual.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bg_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bg_image_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sigurgeir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/work/drcinema2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/work/huginn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/work/korger1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/work/lettergame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/google-maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/minibar-virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/topbar-virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/animateNumber/jquery.animateNumber.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/fancybox/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/fancybox/js/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/nice-select/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/nice-select/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/owl-carousel/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/waypoints/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/wow/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/migrations/0002_rename_details_contact_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/migrations/0003_contact_order_no.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/migrations/0004_alter_contact_order_no.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/migrations/0005_links_alter_contact_order_no.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/migrations/0006_rename_links_link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/templates/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0002_alter_education_ending_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0003_alter_education_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0004_alter_education_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0005_alter_education_school_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0006_alter_education_school_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0007_alter_education_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0008_alter_education_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0009_alter_education_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0010_alter_education_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0011_alter_education_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0012_alter_education_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0013_rename_stating_year_education_starting_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/0014_rename_education_education_title.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/templates/education.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/education/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/migrations/0002_alter_experience_ending_year_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/migrations/0003_rename_stating_year_experience_starting_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/templates/experience.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/bg_image_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/default-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/default-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_02CQkIt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_2retw1q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_4fmI1Tc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_9zEbB9X.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_BTHOAtz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_CsXQICn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_EBiYbu8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_MXWxnhg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_RzxHuZi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/drcinema2_T2rjxss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/huginn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/korger1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/lettergame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sigurgeir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/migrations/0002_owner_age.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/migrations/0003_owner_gender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/migrations/0004_alter_owner_gender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/migrations/0005_alter_owner_photo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owner/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portf/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portf/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portf/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portf/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portf/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/0002_alter_projects_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/0003_alter_projects_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/templates/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0002_alter_skill_skill_set_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0003_rename_limited_integer_field_skill_skill_in_procents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0004_skill_skill_title.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0005_alter_skill_skill_title.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0006_alter_skill_skill_in_procents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0007_rename_skill_set_number_skill_skill_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0008_rename_skill_in_procents_skill_skill_procents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0009_rename_skill_procents_skill_procents_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0010_remove_skillset_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0011_skillset_order_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0012_alter_skillset_order_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/0013_alter_skill_procents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/templates/skills.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24GBAv9sAQAmVmN6Zmt2ljeYwan" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/education" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\My Stuff\Sibbi\Skóladót\django\portfolio\education" />
+      <recent name="I:\My Stuff\Sibbi\Skóladót\django\portfolio\skills\templates" />
+      <recent name="I:\My Stuff\Sibbi\Skóladót\django\portfolio\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="portf" type="Python.DjangoServer" factoryName="Django server">
+      <module name="portf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="portf.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3464c075-f3e0-440c-aa8f-130de5e796d8" name="Changes" comment="" />
+      <created>1643246904863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643246904863</updated>
+      <workItem from="1643246926010" duration="69000" />
+      <workItem from="1643247009671" duration="77000" />
+      <workItem from="1643247131295" duration="205000" />
+      <workItem from="1643247348036" duration="4000" />
+      <workItem from="1643247423639" duration="1010000" />
+      <workItem from="1643295173589" duration="16430000" />
+      <workItem from="1643324928334" duration="675000" />
+      <workItem from="1643359230109" duration="10934000" />
+      <workItem from="1643452928419" duration="16668000" />
+      <workItem from="1643505092225" duration="1293000" />
+      <workItem from="1643536361381" duration="9824000" />
+      <workItem from="1643591329507" duration="1779000" />
+      <workItem from="1643623492477" duration="9518000" />
+      <workItem from="1643680961189" duration="208000" />
+      <workItem from="1643724507211" duration="5240000" />
+      <workItem from="1643790946419" duration="8344000" />
+      <workItem from="1645726603627" duration="141000" />
+      <workItem from="1645738648613" duration="380000" />
+      <workItem from="1645748305326" duration="2119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/homepage.html</url>
+          <line>117</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/portf/views.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/portf/views.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

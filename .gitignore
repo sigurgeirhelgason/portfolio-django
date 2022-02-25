@@ -1,31 +1,29 @@
+ 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Distribution / packaging
-.Python
+bin/
 build/
 develop-eggs/
 dist/
-downloads/
 eggs/
-.eggs/
 lib/
 lib64/
 parts/
 sdist/
 var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -35,6 +33,7 @@ MANIFEST
 
 # Installer logs
 pip-log.txt
+<<<<<<< HEAD
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
@@ -54,6 +53,9 @@ coverage.xml
 # Translations
 *.mo
 *.pot
+=======
+pip-delete-this-directory.tx
+>>>>>>> 516125746fb47d3f1ae0b0d8fe51eff810b88679
 
 # Django stuff:
 *.log
@@ -61,6 +63,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+<<<<<<< HEAD
 # Flask stuff:
 instance/
 .webassets-cache
@@ -101,6 +104,8 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+=======
+>>>>>>> 516125746fb47d3f1ae0b0d8fe51eff810b88679
 # Environments
 .env
 .venv
@@ -109,6 +114,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+<<<<<<< HEAD
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +133,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+=======
+.idea
+>>>>>>> 516125746fb47d3f1ae0b0d8fe51eff810b88679

@@ -1,0 +1,37 @@
+{% load static %}
+
+
+<!-- Skills -->
+<div class="container mt-5">
+  <h1 class="text-center fg-dark wow fadeInUp">My Skills</h1>
+  <div class="row py-3">
+        {% for skill_set in skill_sets %}
+            <div class="col-md-6">
+                <h4 class="wow fadeInUp" style="padding-top: 20px">{{ skill_set.title }}</h4>
+                {% for skill in skills %}
+                    {% if skill.skill_set.title == skill_set.title %}
+                      <div class="progress-wrapper wow fadeInUp">
+                        <span class="caption">{{ skill.title }}</span>
+                        {% if skill.procents %}
+                            <div class="progress">
+                              <div
+                                class="progress-bar"
+                                role="progressbar"
+                                style="width: 85%"
+                                aria-valuenow="{{ skill.procents }}"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              >
+                                {{ skill.procents }}%
+                              </div>
+                            </div>
+                        {% endif %}
+
+                    {% endif %}
+                {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
+  <!-- End skills -->
