@@ -1426,3 +1426,8 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.skill-image {
+ height: 40px;
+ width: auto;
+}

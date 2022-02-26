@@ -9,6 +9,7 @@ class SkillSet(models.Model):
     title = models.CharField(max_length=100,
                              help_text="The title of the skill set")
 
+
     def __str__(self):
         return self.title
 
@@ -25,6 +26,7 @@ class Skill(models.Model):
             MinValueValidator(0)
         ]
     )
+    image = models.ImageField(default='bullet.png')
 
     def __str__(self):
         return (f"{self.title} in {self.skill_set}")

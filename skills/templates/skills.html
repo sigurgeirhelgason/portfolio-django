@@ -11,6 +11,7 @@
                 {% for skill in skills %}
                     {% if skill.skill_set.title == skill_set.title %}
                       <div class="progress-wrapper wow fadeInUp">
+                        <img class="skill-image" src="{{ skill.image.url }}" alt="{{ skill.title }}"/>
                         <span class="caption">{{ skill.title }}</span>
                         {% if skill.procents %}
                             <div class="progress">
