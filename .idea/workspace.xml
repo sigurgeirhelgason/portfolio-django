@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="197002db-196f-4c14-9c78-b19fc871437a" name="Changes" comment="fixed readme">
-      <change afterPath="$PROJECT_DIR$/assets/img/bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/python-logo-black-and-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills/migrations/0014_skillset_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills/migrations/0015_remove_skillset_image_skill_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/virtual.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/virtual.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skills/templates/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/skills/templates/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +119,7 @@
       <workItem from="1645738648613" duration="380000" />
       <workItem from="1645748305326" duration="2119000" />
       <workItem from="1645866533031" duration="994000" />
-      <workItem from="1645868208943" duration="4383000" />
+      <workItem from="1645868208943" duration="5590000" />
     </task>
     <servers />
   </component>
