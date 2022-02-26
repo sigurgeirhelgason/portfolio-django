@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # portfolio-django
 A django project for online portfolio 
 =======
@@ -36,4 +35,3 @@ $ venv\Scripts\activate
 (env)$ python manage.py runserver
 ```
 
->>>>>>> 516125746fb47d3f1ae0b0d8fe51eff810b88679
