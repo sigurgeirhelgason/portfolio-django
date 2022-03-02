@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-6yv)58_2x)_6h1(auzqk#_@3h_(%6)(m@f6+=i7yio#2r$7c2n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["djanto-porto.azurewebsites.net", "127.0.0.1"]
+ALLOWED_HOSTS = ["sibbi.is", "djanto-porto.azurewebsites.net", "127.0.0.1"]
 
 
 # Application definition
@@ -78,7 +78,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "portf.wsgi.application"
 
-CSRF_TRUSTED_ORIGINS = ["https://djanto-porto.azurewebsites.net", "http://127.0.0.1"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://sibbi.is",
+    "http://sibbi.is",
+    "https://djanto-porto.azurewebsites.net",
+    "http://127.0.0.1",
+]
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
