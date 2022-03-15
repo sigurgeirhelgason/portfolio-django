@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "admin_volt.apps.AdminVoltConfig",
+    #"admin_volt.apps.AdminVoltConfig",
     "django.contrib.admin",
     "owner",
     "skills",
@@ -46,10 +46,13 @@ INSTALLED_APPS = [
     "experience",
     "projects",
     "contacts",
+    #'jazzmin',
+    #'django.contrib.admin',
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -134,6 +137,7 @@ STATIC_URL = "/static/"
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "assets"),)
 # STATIC_ROOT = str((os.path.join(BASE_DIR, "assets"))
+
 
 MEDIA_URL = "/media/"
 

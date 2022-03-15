@@ -5,6 +5,7 @@ from experience import views as experience_view
 from education import views as education_view
 from projects import views as projects_view
 from contacts import views as contacts_view
+from games import stafaleikur
 
 
 def homepage(request):
@@ -27,3 +28,11 @@ def homepage(request):
                    "contacts": contacts,
                    "links" : links
                    })
+
+def stafaleikur(request):
+    return render(request,
+                  'stafaleikur.html')
+
+def korg(request):
+    return render(request,
+                  'korg.html')
