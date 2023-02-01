@@ -27,7 +27,11 @@ SECRET_KEY = "django-insecure-6yv)58_2x)_6h1(auzqk#_@3h_(%6)(m@f6+=i7yio#2r$7c2n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["sibbi.is", "djanto-porto.azurewebsites.net", "127.0.0.1"]
+ALLOWED_HOSTS = ["sibbi.is",
+                 "sibbi.is/admin",
+                 'sibbi.azurewebsites.net',  
+                 "127.0.0.1",
+                 "localhost",]
 
 
 # Application definition
@@ -38,6 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'jazzmin',
     #"admin_volt.apps.AdminVoltConfig",
     "django.contrib.admin",
     "owner",
@@ -46,8 +51,6 @@ INSTALLED_APPS = [
     "experience",
     "projects",
     "contacts",
-    #'jazzmin',
-    #'django.contrib.admin',
 ]
 
 MIDDLEWARE = [
@@ -84,8 +87,9 @@ WSGI_APPLICATION = "portf.wsgi.application"
 CSRF_TRUSTED_ORIGINS = [
     "https://sibbi.is",
     "http://sibbi.is",
-    "https://djanto-porto.azurewebsites.net",
+    "https://sibbi.azurewebsites.net",
     "http://127.0.0.1",
+    "http://localhost",
 ]
 
 # Database
@@ -135,7 +139,9 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, "assets"),)
+#STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
+STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 # STATIC_ROOT = str((os.path.join(BASE_DIR, "assets"))
 
 
