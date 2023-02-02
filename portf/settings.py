@@ -12,7 +12,18 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 
 from pathlib import Path
+import environ
 import os
+
+#Set up environment variables
+env = environ.Env(
+    # set casting, default value
+    DEBUG=(bool, False)
+)
+
+# reading .env file
+environ.Env.read_env()
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -22,16 +33,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-6yv)58_2x)_6h1(auzqk#_@3h_(%6)(m@f6+=i7yio#2r$7c2n"
+
+SECRET_KEY = env.str('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["sibbi.is",
-                 "sibbi.is/admin",
-                 'sibbi.azurewebsites.net',  
-                 "127.0.0.1",
-                 "localhost",]
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 
 
 # Application definition
@@ -84,21 +92,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "portf.wsgi.application"
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://sibbi.is",
-    "http://sibbi.is",
-    "https://sibbi.azurewebsites.net",
-    "http://127.0.0.1",
-    "http://localhost",
-]
+CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS')
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        'ENGINE': env('DATABASE_ENGINE'),
+        'NAME': env('DATABASE_NAME'),
     }
 }
 
@@ -139,10 +141,10 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
-#STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
-# STATIC_ROOT = str((os.path.join(BASE_DIR, "assets"))
+#STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+#STATIC_ROOT = str((os.path.join(BASE_DIR, "assets")))
 
 
 MEDIA_URL = "/media/"
